@@ -1,4 +1,6 @@
 // App.jsx
+"homepage": 
+"https://UVI155.github.io/CONVERGETRACK"
 import { useState, useEffect } from 'react';
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
@@ -417,6 +419,10 @@ export default function App() {
       </div>
     </div>
   );
+}
+"scripts": {
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
 }
 
 
